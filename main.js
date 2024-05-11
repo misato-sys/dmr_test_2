@@ -609,7 +609,7 @@ const quiz = [
   {
     question: 'Q64. 赤血球がA抗原を保有していれば、血清中には抗B抗体が存在するというような抗原と抗体の関係を「（　　　）の法則」という。',
     choices: [
-    'メンデル'
+    'メンデル',
     'Landsteiner',
     'Rantz-Randall',
     ],
@@ -795,7 +795,7 @@ const quiz = [
     question: 'Q83. 前立腺がんの確定検査は（　　　）である。',
     choices: [
     'PSA測定',
-    '直腸診および経直腸的超音波検査'
+    '直腸診および経直腸的超音波検査',
     '生検',
     ],
     correct: '生検',
@@ -1027,6 +1027,4 @@ const quiz = [
     clickHandler(e);
   });
   handlerIndex++;
-
  }
- 
