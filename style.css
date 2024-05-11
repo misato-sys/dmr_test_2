@@ -1,0 +1,43 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+   }
+   
+   .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+    width: 80vw;
+    height: 60vh;
+    margin: 100px auto;
+    padding: 50px;
+   }
+    
+   .card h2 {
+    font-size: 1.0em;
+   }
+    
+   .card .choice {
+    display: flex;
+    margin-top: 100px;
+    margin-right: 100px;
+    /*margin-left: 100px;*/
+
+    justify-content: space-around;
+    width: 50%;
+   }
+    
+   .card .choice button {
+    border: 1px solid rgba(0, 0, 0);
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    outline: none;
+    background-color: #fff;
+    width: 150px; 
+   }
